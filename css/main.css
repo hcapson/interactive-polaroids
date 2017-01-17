@@ -17,9 +17,9 @@ html {
 }
 
 .polaroid:first-child {
-  left: 15%;
+  left: 20%;
   top: 100px;
-  transform: rotate(-11deg);
+  transform: rotate(-12deg);
 }
 
 .polaroid:nth-last-child(2) {
@@ -31,8 +31,8 @@ html {
 
 .polaroid:last-child {
   top: 100px;
-  left: 35%;
-  transform: rotate(30deg);
+  left: 40%;
+  transform: rotate(33deg);
 }
 
 .polaroid > img {
@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  position: absolute;
+  position:
 }
 
 .polaroid:hover {
