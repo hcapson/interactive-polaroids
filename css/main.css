@@ -31,8 +31,9 @@ html {
 
 .polaroid:last-child {
   top: 100px;
+  left: 35%;
+  transform: rotate(30deg);
 }
-
 
 .polaroid > img {
   display: block;
@@ -42,4 +43,13 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+body {
+  position: absolute;
+}
+
+.polaroid:hover {
+
+  box-shadow: 0 0 30px 6px rgba(0, 0, 0, .5);
 }
